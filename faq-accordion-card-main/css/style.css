@@ -81,17 +81,18 @@ body {
   overflow: hidden;
 }
 
-.text_active {
+/*active class*/
+.high__light {
+  height: 5.3rem !important;
+}
+
+.high__light h3 {
   color: var(--text-1) !important;
   font-weight: 700 !important;
 }
 
-.svg__active {
-  rotate: 180deg !important;
-}
-
-.box__active {
-  height: 5.3rem !important;
+.high__light svg {
+  rotate: 180deg;
 }
 
 main {
@@ -179,6 +180,7 @@ main .faq__card .faq__info {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 3rem;
   position: relative;
 }
 
@@ -189,7 +191,7 @@ main .faq__card .faq__info h1 {
   font-weight: 700;
   color: var(--text-1);
   position: absolute;
-  top: 0;
+  top: 1rem;
 }
 
 main .faq__card .faq__info .divider {
